@@ -1,0 +1,4 @@
+.DS_Store
+templates/
+output/
+node_modules/

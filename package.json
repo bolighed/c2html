@@ -1,0 +1,29 @@
+{
+  "name": "c2html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "dependencies": {
+    "@types/args": "^3.0.0",
+    "@types/end-of-stream": "^1.4.0",
+    "@types/js-yaml": "^3.10.1",
+    "@types/mz": "0.0.32",
+    "@types/yargs": "^8.0.2",
+    "js-yaml": "^3.10.0",
+    "preact": "^8.2.6",
+    "preact-render-to-string": "^3.7.0",
+    "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "mz": "^2.7.0"
+  },
+  "bin": {
+    "c2html": "./bin/c2html"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rasmus Kildevæld <rki@bolighed.dk>",
+  "license": "MIT",
+  "types": "./lib/index.d.ts"
+}
