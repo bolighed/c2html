@@ -1,6 +1,27 @@
 # C2HTML
 
-## Usage from terminal
+## Usage
+
+config object:
+```ts
+
+export type destination = string | ((config: FileConfig) => string);
+
+
+export interface Config {
+    base?: string;
+    files: {
+        path: string;
+        name?: string;
+        props?: any;
+    }[];
+    dest: destination;
+    keep?: boolean;
+}
+
+```
+
+### Usage from terminal
 
 ```sh
 $ c2html -h
@@ -19,7 +40,7 @@ $ c2html -o template components/**/*.{js,jsx}
 
 ```
 
-## Programmic API
+### Programmic API
 
 ```js
 
