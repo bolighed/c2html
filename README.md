@@ -10,7 +10,7 @@ export type destination = string | ((config: FileConfig) => string);
 
 export interface Config {
     base?: string;
-    files: {
+    files: interface FileConfig {
         path: string;
         name?: string;
         props?: any;
