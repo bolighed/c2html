@@ -12,10 +12,9 @@
     "js-yaml": "^3.10.0",
     "preact": "^8.2.6",
     "preact-render-to-string": "^3.7.0",
-    "yargs": "^10.0.3"
-  },
-  "devDependencies": {
-    "mz": "^2.7.0"
+    "undom": "^0.3.3",
+    "yargs": "^10.0.3",
+     "mz": "^2.7.0"
   },
   "bin": {
     "c2html": "./bin/c2html"

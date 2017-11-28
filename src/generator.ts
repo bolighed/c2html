@@ -1,3 +1,4 @@
+import 'undom/register';
 import { render } from 'preact-render-to-string';
 import { ComponentConstructor, h } from 'preact';
 import * as Path from 'path';
